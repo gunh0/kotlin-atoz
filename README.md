@@ -22,6 +22,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 <!-- INDEX:basics:START -->
 - Hello, Kotlin: [`HelloKotlin.kt`](src/main/kotlin/basics/HelloKotlin.kt)
 - `val` vs `var`, nullable types: [`Variables.kt`](src/main/kotlin/basics/Variables.kt)
+- Basic types, no implicit widening, explicit conversions: [`BasicTypes.kt`](src/main/kotlin/basics/BasicTypes.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
