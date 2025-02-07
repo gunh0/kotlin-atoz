@@ -30,6 +30,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 Classes and constructors, properties, data/sealed/enum classes, objects and companions, interfaces, delegation.
 
 <!-- INDEX:oop:START -->
+- Primary and secondary constructors, default values: [`Constructors.kt`](src/main/kotlin/oop/Constructors.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
