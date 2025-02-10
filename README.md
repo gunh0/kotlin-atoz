@@ -38,6 +38,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 Lambdas, higher-order and inline functions, scope functions, extension functions.
 
 <!-- INDEX:functional:START -->
+- Lambdas and function types: [`Lambdas.kt`](src/main/kotlin/functional/Lambdas.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
