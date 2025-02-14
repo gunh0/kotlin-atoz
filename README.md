@@ -60,6 +60,7 @@ Generic functions and classes, variance (`in`/`out`), reified type parameters.
 Structured concurrency, cancellation, `async`, `Flow`, channels, testing with virtual time.
 
 <!-- INDEX:coroutines:START -->
+- Suspend functions, `runBlocking`, the hidden `Continuation` parameter: [`SuspendFunctions.kt`](src/main/kotlin/coroutines/SuspendFunctions.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
