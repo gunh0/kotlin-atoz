@@ -46,6 +46,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 Read-only vs mutable collections, transformations, grouping, sequences.
 
 <!-- INDEX:collections:START -->
+- Read-only vs mutable collections, defensive copies: [`ReadOnlyVsMutable.kt`](src/main/kotlin/collections/ReadOnlyVsMutable.kt)
 <!-- INDEX:collections:END -->
 
 ### generics
