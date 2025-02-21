@@ -76,6 +76,7 @@ Type-safe builders, lambdas with receivers, `@DslMarker`.
 Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotations, SAM conversions.
 
 <!-- INDEX:interop:START -->
+- Platform types (`String!`) and nullability at the Java boundary: [`PlatformTypes.kt`](src/main/kotlin/interop/PlatformTypes.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
