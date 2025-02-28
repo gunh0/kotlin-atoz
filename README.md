@@ -91,4 +91,5 @@ Language features by Kotlin release, starting with 2.x.
 Secure coding in Kotlin: what null safety and immutability buy you, and what they don't.
 
 <!-- INDEX:secure:START -->
+- Validating input at the boundary: `requireNotNull`, `require`, `check`: [`InputValidation.kt`](src/main/kotlin/secure/InputValidation.kt)
 <!-- INDEX:secure:END -->
