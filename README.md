@@ -54,6 +54,7 @@ Read-only vs mutable collections, transformations, grouping, sequences.
 Generic functions and classes, variance (`in`/`out`), reified type parameters.
 
 <!-- INDEX:generics:START -->
+- Generic functions and classes, `T & Any`: [`GenericBasics.kt`](src/main/kotlin/generics/GenericBasics.kt)
 <!-- INDEX:generics:END -->
 
 ### coroutines
