@@ -70,6 +70,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 Type-safe builders, lambdas with receivers, `@DslMarker`.
 
 <!-- INDEX:dsl:START -->
+- Lambdas with receiver: `T.() -> Unit`: [`LambdasWithReceiver.kt`](src/main/kotlin/dsl/LambdasWithReceiver.kt)
 <!-- INDEX:dsl:END -->
 
 ### interop
