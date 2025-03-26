@@ -68,6 +68,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 <!-- INDEX:coroutines:START -->
 - Suspend functions, `runBlocking`, the hidden `Continuation` parameter: [`SuspendFunctions.kt`](src/main/kotlin/coroutines/SuspendFunctions.kt)
 - `launch` vs `async`/`await`, sequential vs concurrent calls: [`LaunchAsync.kt`](src/main/kotlin/coroutines/LaunchAsync.kt)
+- Structured concurrency: `coroutineScope` waits for children, failures cancel siblings: [`StructuredConcurrency.kt`](src/main/kotlin/coroutines/StructuredConcurrency.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
