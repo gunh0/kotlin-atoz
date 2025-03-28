@@ -85,6 +85,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 
 <!-- INDEX:interop:START -->
 - Platform types (`String!`) and nullability at the Java boundary: [`PlatformTypes.kt`](src/main/kotlin/interop/PlatformTypes.kt)
+- `@JvmStatic`, `@JvmField`, `@JvmOverloads`, `@JvmName` seen via reflection: [`JvmAnnotations.kt`](src/main/kotlin/interop/JvmAnnotations.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
