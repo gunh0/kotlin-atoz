@@ -24,6 +24,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - `val` vs `var`, nullable types: [`Variables.kt`](src/main/kotlin/basics/Variables.kt)
 - Basic types, no implicit widening, explicit conversions: [`BasicTypes.kt`](src/main/kotlin/basics/BasicTypes.kt)
 - String templates, raw strings, `trimIndent`, `buildString`: [`Strings.kt`](src/main/kotlin/basics/Strings.kt)
+- `if` and `when` as expressions: [`Conditionals.kt`](src/main/kotlin/basics/Conditionals.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
