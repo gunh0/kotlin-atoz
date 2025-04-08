@@ -10,7 +10,7 @@ repositories {
     mavenCentral()
 }
 
-val coroutinesVersion = "1.10.1"
+val coroutinesVersion = "1.10.2"
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
