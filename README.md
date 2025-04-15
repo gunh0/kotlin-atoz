@@ -105,4 +105,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 
 <!-- INDEX:secure:START -->
 - Validating input at the boundary: `requireNotNull`, `require`, `check`: [`InputValidation.kt`](src/main/kotlin/secure/InputValidation.kt)
+- Sealed result types instead of exceptions for expected failures: [`SealedResults.kt`](src/main/kotlin/secure/SealedResults.kt)
 <!-- INDEX:secure:END -->
