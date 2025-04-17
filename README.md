@@ -54,6 +54,7 @@ Read-only vs mutable collections, transformations, grouping, sequences.
 <!-- INDEX:collections:START -->
 - Read-only vs mutable collections, defensive copies: [`ReadOnlyVsMutable.kt`](src/main/kotlin/collections/ReadOnlyVsMutable.kt)
 - Collection factories, `buildList`/`buildMap`: [`CollectionBuilders.kt`](src/main/kotlin/collections/CollectionBuilders.kt)
+- `map`, `filter`, `flatMap` and friends: [`Transformations.kt`](src/main/kotlin/collections/Transformations.kt)
 <!-- INDEX:collections:END -->
 
 ### generics
