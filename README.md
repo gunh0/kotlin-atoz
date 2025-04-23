@@ -25,6 +25,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Basic types, no implicit widening, explicit conversions: [`BasicTypes.kt`](src/main/kotlin/basics/BasicTypes.kt)
 - String templates, raw strings, `trimIndent`, `buildString`: [`Strings.kt`](src/main/kotlin/basics/Strings.kt)
 - `if` and `when` as expressions: [`Conditionals.kt`](src/main/kotlin/basics/Conditionals.kt)
+- Ranges and progressions: `..`, `..<`, `downTo`, `step`: [`Ranges.kt`](src/main/kotlin/basics/Ranges.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
