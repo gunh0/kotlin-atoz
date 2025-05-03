@@ -47,6 +47,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Lambdas and function types: [`Lambdas.kt`](src/main/kotlin/functional/Lambdas.kt)
 - Higher-order functions, trailing lambdas: [`HigherOrderFunctions.kt`](src/main/kotlin/functional/HigherOrderFunctions.kt)
 - `inline`, `noinline`, `crossinline`, non-local returns: [`InlineFunctions.kt`](src/main/kotlin/functional/InlineFunctions.kt)
+- Scope functions: `let`, `run`, `with`, `apply`, `also`: [`ScopeFunctions.kt`](src/main/kotlin/functional/ScopeFunctions.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
