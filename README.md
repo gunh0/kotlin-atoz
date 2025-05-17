@@ -38,6 +38,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - Initialization order, `init` blocks, open calls in constructors: [`InitOrder.kt`](src/main/kotlin/oop/InitOrder.kt)
 - Properties: custom accessors, backing field, `lateinit`, `by lazy`: [`Properties.kt`](src/main/kotlin/oop/Properties.kt)
 - Visibility: `private`, `protected`, `internal`, private constructors: [`Visibility.kt`](src/main/kotlin/oop/Visibility.kt)
+- Data classes: `copy`, `componentN`, generated `toString` leaks: [`DataClasses.kt`](src/main/kotlin/oop/DataClasses.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
