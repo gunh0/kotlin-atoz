@@ -51,6 +51,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - `inline`, `noinline`, `crossinline`, non-local returns: [`InlineFunctions.kt`](src/main/kotlin/functional/InlineFunctions.kt)
 - Scope functions: `let`, `run`, `with`, `apply`, `also`: [`ScopeFunctions.kt`](src/main/kotlin/functional/ScopeFunctions.kt)
 - Extension functions and properties, static dispatch: [`Extensions.kt`](src/main/kotlin/functional/Extensions.kt)
+- Function, property and constructor references (`::`): [`FunctionReferences.kt`](src/main/kotlin/functional/FunctionReferences.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
