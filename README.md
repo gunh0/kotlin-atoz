@@ -27,6 +27,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - `if` and `when` as expressions: [`Conditionals.kt`](src/main/kotlin/basics/Conditionals.kt)
 - Ranges and progressions: `..`, `..<`, `downTo`, `step`: [`Ranges.kt`](src/main/kotlin/basics/Ranges.kt)
 - Loops, labels, `return@forEach`: [`Loops.kt`](src/main/kotlin/basics/Loops.kt)
+- Functions: default/named arguments, single-expression, `vararg`: [`Functions.kt`](src/main/kotlin/basics/Functions.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
