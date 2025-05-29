@@ -88,6 +88,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - Cooperative cancellation, `ensureActive`, `NonCancellable` cleanup: [`Cancellation.kt`](src/main/kotlin/coroutines/Cancellation.kt)
 - Timeouts: `withTimeout`, `withTimeoutOrNull`: [`Timeouts.kt`](src/main/kotlin/coroutines/Timeouts.kt)
 - Exceptions: `launch` vs `async`, `supervisorScope`, `CoroutineExceptionHandler`: [`ExceptionHandling.kt`](src/main/kotlin/coroutines/ExceptionHandling.kt)
+- Dispatchers and `withContext`, executors as dispatchers: [`Dispatchers.kt`](src/main/kotlin/coroutines/Dispatchers.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
