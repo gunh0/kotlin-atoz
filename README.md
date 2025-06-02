@@ -76,6 +76,7 @@ Generic functions and classes, variance (`in`/`out`), reified type parameters.
 <!-- INDEX:generics:START -->
 - Generic functions and classes, `T & Any`: [`GenericBasics.kt`](src/main/kotlin/generics/GenericBasics.kt)
 - Upper bounds and `where` clauses: [`GenericConstraints.kt`](src/main/kotlin/generics/GenericConstraints.kt)
+- Declaration-site variance: `out` and `in`: [`DeclarationSiteVariance.kt`](src/main/kotlin/generics/DeclarationSiteVariance.kt)
 <!-- INDEX:generics:END -->
 
 ### coroutines
