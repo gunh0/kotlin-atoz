@@ -128,4 +128,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Validating input at the boundary: `requireNotNull`, `require`, `check`: [`InputValidation.kt`](src/main/kotlin/secure/InputValidation.kt)
 - Sealed result types instead of exceptions for expected failures: [`SealedResults.kt`](src/main/kotlin/secure/SealedResults.kt)
 - Defensive copies: read-only is not immutable: [`DefensiveCopies.kt`](src/main/kotlin/secure/DefensiveCopies.kt)
+- Keeping secrets out of `toString()`: override, value class wrapper: [`SecretToString.kt`](src/main/kotlin/secure/SecretToString.kt)
 <!-- INDEX:secure:END -->
