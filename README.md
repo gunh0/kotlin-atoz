@@ -28,6 +28,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Ranges and progressions: `..`, `..<`, `downTo`, `step`: [`Ranges.kt`](src/main/kotlin/basics/Ranges.kt)
 - Loops, labels, `return@forEach`: [`Loops.kt`](src/main/kotlin/basics/Loops.kt)
 - Functions: default/named arguments, single-expression, `vararg`: [`Functions.kt`](src/main/kotlin/basics/Functions.kt)
+- Null safety: `?.`, `?:`, `!!`, smart casts: [`NullSafety.kt`](src/main/kotlin/basics/NullSafety.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
