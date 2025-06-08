@@ -42,6 +42,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - Visibility: `private`, `protected`, `internal`, private constructors: [`Visibility.kt`](src/main/kotlin/oop/Visibility.kt)
 - Data classes: `copy`, `componentN`, generated `toString` leaks: [`DataClasses.kt`](src/main/kotlin/oop/DataClasses.kt)
 - Sealed types, exhaustive `when`, `data object`: [`SealedClasses.kt`](src/main/kotlin/oop/SealedClasses.kt)
+- Enum classes: properties, per-constant overrides, `entries`: [`EnumClasses.kt`](src/main/kotlin/oop/EnumClasses.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
