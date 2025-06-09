@@ -57,6 +57,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Extension functions and properties, static dispatch: [`Extensions.kt`](src/main/kotlin/functional/Extensions.kt)
 - Function, property and constructor references (`::`): [`FunctionReferences.kt`](src/main/kotlin/functional/FunctionReferences.kt)
 - Closures and captured variables: [`Closures.kt`](src/main/kotlin/functional/Closures.kt)
+- `tailrec` functions: [`TailRecursion.kt`](src/main/kotlin/functional/TailRecursion.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
