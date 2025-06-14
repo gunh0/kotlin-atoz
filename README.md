@@ -105,6 +105,7 @@ Type-safe builders, lambdas with receivers, `@DslMarker`.
 <!-- INDEX:dsl:START -->
 - Lambdas with receiver: `T.() -> Unit`: [`LambdasWithReceiver.kt`](src/main/kotlin/dsl/LambdasWithReceiver.kt)
 - Type-safe HTML builder that escapes text: [`HtmlBuilder.kt`](src/main/kotlin/dsl/HtmlBuilder.kt)
+- `@DslMarker`: stopping outer receivers from leaking: [`ScopeControl.kt`](src/main/kotlin/dsl/ScopeControl.kt)
 <!-- INDEX:dsl:END -->
 
 ### interop
