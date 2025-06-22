@@ -121,6 +121,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - `@JvmStatic`, `@JvmField`, `@JvmOverloads`, `@JvmName` seen via reflection: [`JvmAnnotations.kt`](src/main/kotlin/interop/JvmAnnotations.kt)
 - SAM conversions: `Runnable`, `Comparator`, `java.util.function`, `fun interface`: [`SamConversions.kt`](src/main/kotlin/interop/SamConversions.kt)
 - Checked exceptions and `@Throws`: [`CheckedExceptions.kt`](src/main/kotlin/interop/CheckedExceptions.kt)
+- Java records and `@JvmRecord` data classes: [`Records.kt`](src/main/kotlin/interop/Records.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
