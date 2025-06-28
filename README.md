@@ -74,6 +74,7 @@ Read-only vs mutable collections, transformations, grouping, sequences.
 - `groupBy`, `groupingBy`, `associate*`, `partition`: [`Grouping.kt`](src/main/kotlin/collections/Grouping.kt)
 - `windowed`, `chunked`, `zip`, `zipWithNext`: [`Windowing.kt`](src/main/kotlin/collections/Windowing.kt)
 - Sorting: `sortedBy`, `compareBy`, `thenBy`, `nullsLast`: [`Sorting.kt`](src/main/kotlin/collections/Sorting.kt)
+- Set operations and map lookups: [`SetsAndMaps.kt`](src/main/kotlin/collections/SetsAndMaps.kt)
 <!-- INDEX:collections:END -->
 
 ### generics
