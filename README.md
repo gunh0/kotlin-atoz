@@ -63,6 +63,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Closures and captured variables: [`Closures.kt`](src/main/kotlin/functional/Closures.kt)
 - `tailrec` functions: [`TailRecursion.kt`](src/main/kotlin/functional/TailRecursion.kt)
 - Operator overloading: [`OperatorOverloading.kt`](src/main/kotlin/functional/OperatorOverloading.kt)
+- Infix functions and bitwise operators: [`InfixFunctions.kt`](src/main/kotlin/functional/InfixFunctions.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
