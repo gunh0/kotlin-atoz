@@ -105,6 +105,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - Dispatchers and `withContext`, executors as dispatchers: [`Dispatchers.kt`](src/main/kotlin/coroutines/Dispatchers.kt)
 - `Flow` basics: cold streams, `map`/`filter`, terminal operators: [`FlowBasics.kt`](src/main/kotlin/coroutines/FlowBasics.kt)
 - Flow operators: `zip`, `combine`, `buffer`, `conflate`: [`FlowOperators.kt`](src/main/kotlin/coroutines/FlowOperators.kt)
+- Flow errors: `catch`, `retry`, `onCompletion`, exception transparency: [`FlowErrors.kt`](src/main/kotlin/coroutines/FlowErrors.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
