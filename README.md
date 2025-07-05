@@ -135,6 +135,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 Language features by Kotlin release, starting with 2.x.
 
 <!-- INDEX:modern:START -->
+- Guard conditions in `when` (2.2): [`WhenGuards.kt`](src/main/kotlin/modern/WhenGuards.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
