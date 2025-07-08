@@ -129,6 +129,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - SAM conversions: `Runnable`, `Comparator`, `java.util.function`, `fun interface`: [`SamConversions.kt`](src/main/kotlin/interop/SamConversions.kt)
 - Checked exceptions and `@Throws`: [`CheckedExceptions.kt`](src/main/kotlin/interop/CheckedExceptions.kt)
 - Java records and `@JvmRecord` data classes: [`Records.kt`](src/main/kotlin/interop/Records.kt)
+- Java streams vs Kotlin sequences: [`StreamsVsSequences.kt`](src/main/kotlin/interop/StreamsVsSequences.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
