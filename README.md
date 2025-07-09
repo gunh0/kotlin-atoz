@@ -31,6 +31,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Null safety: `?.`, `?:`, `!!`, smart casts: [`NullSafety.kt`](src/main/kotlin/basics/NullSafety.kt)
 - Safe call chains, `?.let`, `takeIf`, `mapNotNull`: [`SafeCalls.kt`](src/main/kotlin/basics/SafeCalls.kt)
 - Equality: `==` vs `===`, floating-point edge cases: [`Equality.kt`](src/main/kotlin/basics/Equality.kt)
+- Exceptions: `try` as an expression, `require`/`check`/`error`, `use`: [`Exceptions.kt`](src/main/kotlin/basics/Exceptions.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
