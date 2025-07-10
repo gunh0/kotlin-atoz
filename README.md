@@ -48,6 +48,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - Enum classes: properties, per-constant overrides, `entries`: [`EnumClasses.kt`](src/main/kotlin/oop/EnumClasses.kt)
 - `object` singletons, companion factories, object expressions: [`Objects.kt`](src/main/kotlin/oop/Objects.kt)
 - Interfaces: default implementations, properties, `super<T>`: [`Interfaces.kt`](src/main/kotlin/oop/Interfaces.kt)
+- Abstract classes, `open`, template method: [`AbstractClasses.kt`](src/main/kotlin/oop/AbstractClasses.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
