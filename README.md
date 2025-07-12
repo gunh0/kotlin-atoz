@@ -66,6 +66,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - `tailrec` functions: [`TailRecursion.kt`](src/main/kotlin/functional/TailRecursion.kt)
 - Operator overloading: [`OperatorOverloading.kt`](src/main/kotlin/functional/OperatorOverloading.kt)
 - Infix functions and bitwise operators: [`InfixFunctions.kt`](src/main/kotlin/functional/InfixFunctions.kt)
+- `fold`, `reduce`, `runningFold`, `foldRight`: [`FoldReduce.kt`](src/main/kotlin/functional/FoldReduce.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
