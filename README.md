@@ -81,6 +81,7 @@ Read-only vs mutable collections, transformations, grouping, sequences.
 - `windowed`, `chunked`, `zip`, `zipWithNext`: [`Windowing.kt`](src/main/kotlin/collections/Windowing.kt)
 - Sorting: `sortedBy`, `compareBy`, `thenBy`, `nullsLast`: [`Sorting.kt`](src/main/kotlin/collections/Sorting.kt)
 - Set operations and map lookups: [`SetsAndMaps.kt`](src/main/kotlin/collections/SetsAndMaps.kt)
+- Sequences: lazy vs eager, `generateSequence`, `sequence {}`: [`Sequences.kt`](src/main/kotlin/collections/Sequences.kt)
 <!-- INDEX:collections:END -->
 
 ### generics
