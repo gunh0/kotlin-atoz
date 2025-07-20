@@ -50,6 +50,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - `object` singletons, companion factories, object expressions: [`Objects.kt`](src/main/kotlin/oop/Objects.kt)
 - Interfaces: default implementations, properties, `super<T>`: [`Interfaces.kt`](src/main/kotlin/oop/Interfaces.kt)
 - Abstract classes, `open`, template method: [`AbstractClasses.kt`](src/main/kotlin/oop/AbstractClasses.kt)
+- Class delegation with `by`: [`ClassDelegation.kt`](src/main/kotlin/oop/ClassDelegation.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
