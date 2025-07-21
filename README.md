@@ -69,6 +69,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Operator overloading: [`OperatorOverloading.kt`](src/main/kotlin/functional/OperatorOverloading.kt)
 - Infix functions and bitwise operators: [`InfixFunctions.kt`](src/main/kotlin/functional/InfixFunctions.kt)
 - `fold`, `reduce`, `runningFold`, `foldRight`: [`FoldReduce.kt`](src/main/kotlin/functional/FoldReduce.kt)
+- Currying and partial application: [`Currying.kt`](src/main/kotlin/functional/Currying.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
