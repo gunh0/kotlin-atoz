@@ -115,6 +115,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - Flow operators: `zip`, `combine`, `buffer`, `conflate`: [`FlowOperators.kt`](src/main/kotlin/coroutines/FlowOperators.kt)
 - Flow errors: `catch`, `retry`, `onCompletion`, exception transparency: [`FlowErrors.kt`](src/main/kotlin/coroutines/FlowErrors.kt)
 - `StateFlow` and `SharedFlow`: state vs events: [`StateAndSharedFlow.kt`](src/main/kotlin/coroutines/StateAndSharedFlow.kt)
+- Channels: capacity, producer/consumer, fan-out: [`Channels.kt`](src/main/kotlin/coroutines/Channels.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
