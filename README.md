@@ -141,6 +141,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - Checked exceptions and `@Throws`: [`CheckedExceptions.kt`](src/main/kotlin/interop/CheckedExceptions.kt)
 - Java records and `@JvmRecord` data classes: [`Records.kt`](src/main/kotlin/interop/Records.kt)
 - Java streams vs Kotlin sequences: [`StreamsVsSequences.kt`](src/main/kotlin/interop/StreamsVsSequences.kt)
+- `java.time` from Kotlin: operators, ranges, injected `Clock`: [`JavaTime.kt`](src/main/kotlin/interop/JavaTime.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
