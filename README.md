@@ -163,4 +163,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Keeping secrets out of `toString()`: override, value class wrapper: [`SecretToString.kt`](src/main/kotlin/secure/SecretToString.kt)
 - Constant-time comparison with `MessageDigest.isEqual`: [`ConstantTimeCompare.kt`](src/main/kotlin/secure/ConstantTimeCompare.kt)
 - `SecureRandom` tokens vs predictable `kotlin.random.Random`: [`SecureTokens.kt`](src/main/kotlin/secure/SecureTokens.kt)
+- Injection: bound parameters, `Regex.escape`, process argument lists: [`InjectionSafety.kt`](src/main/kotlin/secure/InjectionSafety.kt)
 <!-- INDEX:secure:END -->
