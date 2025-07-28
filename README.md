@@ -33,6 +33,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Equality: `==` vs `===`, floating-point edge cases: [`Equality.kt`](src/main/kotlin/basics/Equality.kt)
 - Exceptions: `try` as an expression, `require`/`check`/`error`, `use`: [`Exceptions.kt`](src/main/kotlin/basics/Exceptions.kt)
 - Destructuring declarations and `componentN`: [`Destructuring.kt`](src/main/kotlin/basics/Destructuring.kt)
+- Type checks and casts: `is`, `as`, `as?`: [`TypeChecks.kt`](src/main/kotlin/basics/TypeChecks.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
