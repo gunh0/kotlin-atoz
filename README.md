@@ -52,6 +52,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - Interfaces: default implementations, properties, `super<T>`: [`Interfaces.kt`](src/main/kotlin/oop/Interfaces.kt)
 - Abstract classes, `open`, template method: [`AbstractClasses.kt`](src/main/kotlin/oop/AbstractClasses.kt)
 - Class delegation with `by`: [`ClassDelegation.kt`](src/main/kotlin/oop/ClassDelegation.kt)
+- Property delegation: `observable`, `vetoable`, `notNull`, map, custom: [`PropertyDelegation.kt`](src/main/kotlin/oop/PropertyDelegation.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
