@@ -72,6 +72,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Infix functions and bitwise operators: [`InfixFunctions.kt`](src/main/kotlin/functional/InfixFunctions.kt)
 - `fold`, `reduce`, `runningFold`, `foldRight`: [`FoldReduce.kt`](src/main/kotlin/functional/FoldReduce.kt)
 - Currying and partial application: [`Currying.kt`](src/main/kotlin/functional/Currying.kt)
+- Memoization, `getOrPut` vs `computeIfAbsent`: [`Memoization.kt`](src/main/kotlin/functional/Memoization.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
