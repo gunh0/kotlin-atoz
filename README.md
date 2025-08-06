@@ -155,6 +155,7 @@ Language features by Kotlin release, starting with 2.x.
 
 <!-- INDEX:modern:START -->
 - Guard conditions in `when` (2.2): [`WhenGuards.kt`](src/main/kotlin/modern/WhenGuards.kt)
+- Non-local `break` and `continue` in inline lambdas (2.2): [`NonLocalBreakContinue.kt`](src/main/kotlin/modern/NonLocalBreakContinue.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
