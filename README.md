@@ -34,6 +34,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Exceptions: `try` as an expression, `require`/`check`/`error`, `use`: [`Exceptions.kt`](src/main/kotlin/basics/Exceptions.kt)
 - Destructuring declarations and `componentN`: [`Destructuring.kt`](src/main/kotlin/basics/Destructuring.kt)
 - Type checks and casts: `is`, `as`, `as?`: [`TypeChecks.kt`](src/main/kotlin/basics/TypeChecks.kt)
+- `Unit` and `Nothing`: [`NothingAndUnit.kt`](src/main/kotlin/basics/NothingAndUnit.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
