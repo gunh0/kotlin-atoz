@@ -75,6 +75,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - `fold`, `reduce`, `runningFold`, `foldRight`: [`FoldReduce.kt`](src/main/kotlin/functional/FoldReduce.kt)
 - Currying and partial application: [`Currying.kt`](src/main/kotlin/functional/Currying.kt)
 - Memoization, `getOrPut` vs `computeIfAbsent`: [`Memoization.kt`](src/main/kotlin/functional/Memoization.kt)
+- `Result` and `runCatching`: [`ResultType.kt`](src/main/kotlin/functional/ResultType.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
