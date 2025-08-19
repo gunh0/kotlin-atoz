@@ -125,6 +125,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - `StateFlow` and `SharedFlow`: state vs events: [`StateAndSharedFlow.kt`](src/main/kotlin/coroutines/StateAndSharedFlow.kt)
 - Channels: capacity, producer/consumer, fan-out: [`Channels.kt`](src/main/kotlin/coroutines/Channels.kt)
 - Shared mutable state: `Mutex`, atomics: [`SharedState.kt`](src/main/kotlin/coroutines/SharedState.kt)
+- Testing with `runTest` and virtual time: [`VirtualTimeTesting.kt`](src/main/kotlin/coroutines/VirtualTimeTesting.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
