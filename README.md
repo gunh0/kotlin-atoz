@@ -105,6 +105,7 @@ Generic functions and classes, variance (`in`/`out`), reified type parameters.
 - Declaration-site variance: `out` and `in`: [`DeclarationSiteVariance.kt`](src/main/kotlin/generics/DeclarationSiteVariance.kt)
 - Use-site variance: type projections, `*`: [`UseSiteVariance.kt`](src/main/kotlin/generics/UseSiteVariance.kt)
 - `reified` type parameters: [`ReifiedTypes.kt`](src/main/kotlin/generics/ReifiedTypes.kt)
+- Type erasure, unchecked casts, `typeOf`: [`TypeErasure.kt`](src/main/kotlin/generics/TypeErasure.kt)
 <!-- INDEX:generics:END -->
 
 ### coroutines
