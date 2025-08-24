@@ -153,6 +153,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - Java records and `@JvmRecord` data classes: [`Records.kt`](src/main/kotlin/interop/Records.kt)
 - Java streams vs Kotlin sequences: [`StreamsVsSequences.kt`](src/main/kotlin/interop/StreamsVsSequences.kt)
 - `java.time` from Kotlin: operators, ranges, injected `Clock`: [`JavaTime.kt`](src/main/kotlin/interop/JavaTime.kt)
+- Read-only `List` seen from Java: views, copies, unmodifiable wrappers: [`CollectionsFromJava.kt`](src/main/kotlin/interop/CollectionsFromJava.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
