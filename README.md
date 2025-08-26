@@ -177,4 +177,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Constant-time comparison with `MessageDigest.isEqual`: [`ConstantTimeCompare.kt`](src/main/kotlin/secure/ConstantTimeCompare.kt)
 - `SecureRandom` tokens vs predictable `kotlin.random.Random`: [`SecureTokens.kt`](src/main/kotlin/secure/SecureTokens.kt)
 - Injection: bound parameters, `Regex.escape`, process argument lists: [`InjectionSafety.kt`](src/main/kotlin/secure/InjectionSafety.kt)
+- Path traversal: `normalize()`, `Path.startsWith`, symlinks: [`PathTraversal.kt`](src/main/kotlin/secure/PathTraversal.kt)
 <!-- INDEX:secure:END -->
