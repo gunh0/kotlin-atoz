@@ -35,6 +35,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Destructuring declarations and `componentN`: [`Destructuring.kt`](src/main/kotlin/basics/Destructuring.kt)
 - Type checks and casts: `is`, `as`, `as?`: [`TypeChecks.kt`](src/main/kotlin/basics/TypeChecks.kt)
 - `Unit` and `Nothing`: [`NothingAndUnit.kt`](src/main/kotlin/basics/NothingAndUnit.kt)
+- Numbers: overflow, `mod`, signed bytes, unsigned types: [`Numbers.kt`](src/main/kotlin/basics/Numbers.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
