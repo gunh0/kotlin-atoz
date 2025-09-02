@@ -167,6 +167,7 @@ Language features by Kotlin release, starting with 2.x.
 - Guard conditions in `when` (2.2): [`WhenGuards.kt`](src/main/kotlin/modern/WhenGuards.kt)
 - Non-local `break` and `continue` in inline lambdas (2.2): [`NonLocalBreakContinue.kt`](src/main/kotlin/modern/NonLocalBreakContinue.kt)
 - Multi-dollar string interpolation (2.2): [`MultiDollarInterpolation.kt`](src/main/kotlin/modern/MultiDollarInterpolation.kt)
+- Stable `Base64` and `HexFormat` in the standard library (2.2): [`StableEncoding.kt`](src/main/kotlin/modern/StableEncoding.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
