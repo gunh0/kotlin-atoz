@@ -183,4 +183,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - `SecureRandom` tokens vs predictable `kotlin.random.Random`: [`SecureTokens.kt`](src/main/kotlin/secure/SecureTokens.kt)
 - Injection: bound parameters, `Regex.escape`, process argument lists: [`InjectionSafety.kt`](src/main/kotlin/secure/InjectionSafety.kt)
 - Path traversal: `normalize()`, `Path.startsWith`, symlinks: [`PathTraversal.kt`](src/main/kotlin/secure/PathTraversal.kt)
+- Password hashing with PBKDF2: salt, iterations, encoded parameters, rehash: [`PasswordHashing.kt`](src/main/kotlin/secure/PasswordHashing.kt)
 <!-- INDEX:secure:END -->
