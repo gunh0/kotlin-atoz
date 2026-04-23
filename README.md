@@ -168,6 +168,7 @@ Language features by Kotlin release, starting with 2.x.
 - Non-local `break` and `continue` in inline lambdas (2.2): [`NonLocalBreakContinue.kt`](src/main/kotlin/modern/NonLocalBreakContinue.kt)
 - Multi-dollar string interpolation (2.2): [`MultiDollarInterpolation.kt`](src/main/kotlin/modern/MultiDollarInterpolation.kt)
 - Stable `Base64` and `HexFormat` in the standard library (2.2): [`StableEncoding.kt`](src/main/kotlin/modern/StableEncoding.kt)
+- Stable `kotlin.time.Clock` and `Instant` (2.3): [`StableClockInstant.kt`](src/main/kotlin/modern/StableClockInstant.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
