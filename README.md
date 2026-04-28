@@ -188,4 +188,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Injection: bound parameters, `Regex.escape`, process argument lists: [`InjectionSafety.kt`](src/main/kotlin/secure/InjectionSafety.kt)
 - Path traversal: `normalize()`, `Path.startsWith`, symlinks: [`PathTraversal.kt`](src/main/kotlin/secure/PathTraversal.kt)
 - Password hashing with PBKDF2: salt, iterations, encoded parameters, rehash: [`PasswordHashing.kt`](src/main/kotlin/secure/PasswordHashing.kt)
+- HMAC-signed tokens with expiry: verify the signature before the payload: [`SignedTokens.kt`](src/main/kotlin/secure/SignedTokens.kt)
 <!-- INDEX:secure:END -->
