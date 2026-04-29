@@ -78,6 +78,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Currying and partial application: [`Currying.kt`](src/main/kotlin/functional/Currying.kt)
 - Memoization, `getOrPut` vs `computeIfAbsent`: [`Memoization.kt`](src/main/kotlin/functional/Memoization.kt)
 - `Result` and `runCatching`: [`ResultType.kt`](src/main/kotlin/functional/ResultType.kt)
+- `DeepRecursiveFunction` vs `StackOverflowError` on deeply nested input: [`DeepRecursion.kt`](src/main/kotlin/functional/DeepRecursion.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
