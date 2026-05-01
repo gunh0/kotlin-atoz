@@ -97,6 +97,7 @@ Read-only vs mutable collections, transformations, grouping, sequences.
 - Arrays vs lists, `contentEquals`, wiping a `ByteArray`: [`ArraysVsLists.kt`](src/main/kotlin/collections/ArraysVsLists.kt)
 - `withIndex`, `indices`, `getOrNull`, `indexOfFirst`: [`IndexedAccess.kt`](src/main/kotlin/collections/IndexedAccess.kt)
 - Aggregation: `count`, `sumOf`, `maxByOrNull`, empty collections: [`Aggregation.kt`](src/main/kotlin/collections/Aggregation.kt)
+- Map defaults: `withDefault`, `getOrElse`, `mapKeys` collisions, live views: [`MapDefaults.kt`](src/main/kotlin/collections/MapDefaults.kt)
 <!-- INDEX:collections:END -->
 
 ### generics
