@@ -57,6 +57,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - Property delegation: `observable`, `vetoable`, `notNull`, map, custom: [`PropertyDelegation.kt`](src/main/kotlin/oop/PropertyDelegation.kt)
 - Value classes for type-safe IDs and validated values: [`ValueClasses.kt`](src/main/kotlin/oop/ValueClasses.kt)
 - Nested vs `inner` classes: [`NestedClasses.kt`](src/main/kotlin/oop/NestedClasses.kt)
+- `Comparable`: `compareValuesBy`, ranges of any comparable, consistency with `equals`: [`ComparableTypes.kt`](src/main/kotlin/oop/ComparableTypes.kt)
 <!-- INDEX:oop:END -->
 
 ### functional
