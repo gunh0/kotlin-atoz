@@ -193,4 +193,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Path traversal: `normalize()`, `Path.startsWith`, symlinks: [`PathTraversal.kt`](src/main/kotlin/secure/PathTraversal.kt)
 - Password hashing with PBKDF2: salt, iterations, encoded parameters, rehash: [`PasswordHashing.kt`](src/main/kotlin/secure/PasswordHashing.kt)
 - HMAC-signed tokens with expiry: verify the signature before the payload: [`SignedTokens.kt`](src/main/kotlin/secure/SignedTokens.kt)
+- Authenticated encryption with AES-GCM: nonces, associated data, the ECB pitfall: [`AesGcmEnvelope.kt`](src/main/kotlin/secure/AesGcmEnvelope.kt)
 <!-- INDEX:secure:END -->
