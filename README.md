@@ -36,6 +36,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Type checks and casts: `is`, `as`, `as?`: [`TypeChecks.kt`](src/main/kotlin/basics/TypeChecks.kt)
 - `Unit` and `Nothing`: [`NothingAndUnit.kt`](src/main/kotlin/basics/NothingAndUnit.kt)
 - Numbers: overflow, `mod`, signed bytes, unsigned types: [`Numbers.kt`](src/main/kotlin/basics/Numbers.kt)
+- Case conversion and formatting: `lowercase()` vs locale, `padStart`, `format`: [`StringCaseAndFormat.kt`](src/main/kotlin/basics/StringCaseAndFormat.kt)
 <!-- INDEX:basics:END -->
 
 ### oop
