@@ -178,6 +178,7 @@ Language features by Kotlin release, starting with 2.x.
 - Stable `Base64` and `HexFormat` in the standard library (2.2): [`StableEncoding.kt`](src/main/kotlin/modern/StableEncoding.kt)
 - Stable `kotlin.time.Clock` and `Instant` (2.3): [`StableClockInstant.kt`](src/main/kotlin/modern/StableClockInstant.kt)
 - Nested type aliases (2.3): [`NestedTypeAliases.kt`](src/main/kotlin/modern/NestedTypeAliases.kt)
+- Data-flow-based `when` exhaustiveness, `return` in expression bodies (2.3): [`WhenDataFlowExhaustiveness.kt`](src/main/kotlin/modern/WhenDataFlowExhaustiveness.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
