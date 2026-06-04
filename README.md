@@ -165,6 +165,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - `java.time` from Kotlin: operators, ranges, injected `Clock`: [`JavaTime.kt`](src/main/kotlin/interop/JavaTime.kt)
 - Read-only `List` seen from Java: views, copies, unmodifiable wrappers: [`CollectionsFromJava.kt`](src/main/kotlin/interop/CollectionsFromJava.kt)
 - `CompletableFuture` and coroutines: `await()`, `future {}`, cancellation: [`CompletableFutures.kt`](src/main/kotlin/interop/CompletableFutures.kt)
+- Virtual threads as a dispatcher for blocking code (JDK 21): [`VirtualThreads.kt`](src/main/kotlin/interop/VirtualThreads.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
