@@ -198,4 +198,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Password hashing with PBKDF2: salt, iterations, encoded parameters, rehash: [`PasswordHashing.kt`](src/main/kotlin/secure/PasswordHashing.kt)
 - HMAC-signed tokens with expiry: verify the signature before the payload: [`SignedTokens.kt`](src/main/kotlin/secure/SignedTokens.kt)
 - Authenticated encryption with AES-GCM: nonces, associated data, the ECB pitfall: [`AesGcmEnvelope.kt`](src/main/kotlin/secure/AesGcmEnvelope.kt)
+- Strict parsing of untrusted input: unknown and duplicate fields, allowlists instead of `valueOf`: [`StrictParsing.kt`](src/main/kotlin/secure/StrictParsing.kt)
 <!-- INDEX:secure:END -->
