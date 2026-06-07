@@ -149,6 +149,7 @@ Type-safe builders, lambdas with receivers, `@DslMarker`.
 - Operator-based route DSL: `invoke`, `infix`, `get`, `contains`: [`RouteDsl.kt`](src/main/kotlin/dsl/RouteDsl.kt)
 - Builder DSL that ends in a validated, immutable config: [`ConfigBuilder.kt`](src/main/kotlin/dsl/ConfigBuilder.kt)
 - Query DSL that renders parameterized SQL, allowlisted identifiers: [`SqlDsl.kt`](src/main/kotlin/dsl/SqlDsl.kt)
+- Validation DSL on property references that collects every violation: [`ValidationDsl.kt`](src/main/kotlin/dsl/ValidationDsl.kt)
 <!-- INDEX:dsl:END -->
 
 ### interop
