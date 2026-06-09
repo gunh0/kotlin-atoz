@@ -136,6 +136,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - Testing with `runTest` and virtual time: [`VirtualTimeTesting.kt`](src/main/kotlin/coroutines/VirtualTimeTesting.kt)
 - `callbackFlow`: bridging listener APIs, `awaitClose` cleanup: [`CallbackFlow.kt`](src/main/kotlin/coroutines/CallbackFlow.kt)
 - `shareIn`/`stateIn`: one upstream, `SharingStarted` policies, owning scope: [`SharingScopes.kt`](src/main/kotlin/coroutines/SharingScopes.kt)
+- kotlinx.coroutines 1.11: `Flow.associate*`, `consumeTo`, `StateFlow.onSubscription`: [`CoroutinesOneEleven.kt`](src/main/kotlin/coroutines/CoroutinesOneEleven.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
