@@ -168,6 +168,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - Read-only `List` seen from Java: views, copies, unmodifiable wrappers: [`CollectionsFromJava.kt`](src/main/kotlin/interop/CollectionsFromJava.kt)
 - `CompletableFuture` and coroutines: `await()`, `future {}`, cancellation: [`CompletableFutures.kt`](src/main/kotlin/interop/CompletableFutures.kt)
 - Virtual threads as a dispatcher for blocking code (JDK 21): [`VirtualThreads.kt`](src/main/kotlin/interop/VirtualThreads.kt)
+- Kotlin sealed types seen from Java: `isSealed`, `permittedSubclasses`: [`SealedFromJava.kt`](src/main/kotlin/interop/SealedFromJava.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
