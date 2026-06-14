@@ -205,4 +205,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Authenticated encryption with AES-GCM: nonces, associated data, the ECB pitfall: [`AesGcmEnvelope.kt`](src/main/kotlin/secure/AesGcmEnvelope.kt)
 - Strict parsing of untrusted input: unknown and duplicate fields, allowlists instead of `valueOf`: [`StrictParsing.kt`](src/main/kotlin/secure/StrictParsing.kt)
 - ReDoS: catastrophic backtracking, input limits, a step-budgeted `CharSequence`: [`RegexDos.kt`](src/main/kotlin/secure/RegexDos.kt)
+- Java deserialization: an `ObjectInputFilter` allowlist with limits: [`DeserializationFilter.kt`](src/main/kotlin/secure/DeserializationFilter.kt)
 <!-- INDEX:secure:END -->
