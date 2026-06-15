@@ -185,6 +185,7 @@ Language features by Kotlin release, starting with 2.x.
 - Nested type aliases (2.3): [`NestedTypeAliases.kt`](src/main/kotlin/modern/NestedTypeAliases.kt)
 - Data-flow-based `when` exhaustiveness, `return` in expression bodies (2.3): [`WhenDataFlowExhaustiveness.kt`](src/main/kotlin/modern/WhenDataFlowExhaustiveness.kt)
 - Context parameters (2.4): [`ContextParameters.kt`](src/main/kotlin/modern/ContextParameters.kt)
+- Explicit backing fields (2.4): [`ExplicitBackingFields.kt`](src/main/kotlin/modern/ExplicitBackingFields.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
