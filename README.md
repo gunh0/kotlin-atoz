@@ -209,4 +209,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Strict parsing of untrusted input: unknown and duplicate fields, allowlists instead of `valueOf`: [`StrictParsing.kt`](src/main/kotlin/secure/StrictParsing.kt)
 - ReDoS: catastrophic backtracking, input limits, a step-budgeted `CharSequence`: [`RegexDos.kt`](src/main/kotlin/secure/RegexDos.kt)
 - Java deserialization: an `ObjectInputFilter` allowlist with limits: [`DeserializationFilter.kt`](src/main/kotlin/secure/DeserializationFilter.kt)
+- SSRF: scheme and port allowlists, checking every resolved address: [`SsrfGuard.kt`](src/main/kotlin/secure/SsrfGuard.kt)
 <!-- INDEX:secure:END -->
