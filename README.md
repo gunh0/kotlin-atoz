@@ -188,6 +188,7 @@ Language features by Kotlin release, starting with 2.x.
 - Data-flow-based `when` exhaustiveness, `return` in expression bodies (2.3): [`WhenDataFlowExhaustiveness.kt`](src/main/kotlin/modern/WhenDataFlowExhaustiveness.kt)
 - Context parameters (2.4): [`ContextParameters.kt`](src/main/kotlin/modern/ContextParameters.kt)
 - Explicit backing fields (2.4): [`ExplicitBackingFields.kt`](src/main/kotlin/modern/ExplicitBackingFields.kt)
+- Stable `kotlin.uuid.Uuid` (2.4): [`StableUuid.kt`](src/main/kotlin/modern/StableUuid.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
