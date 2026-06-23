@@ -172,6 +172,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - `CompletableFuture` and coroutines: `await()`, `future {}`, cancellation: [`CompletableFutures.kt`](src/main/kotlin/interop/CompletableFutures.kt)
 - Virtual threads as a dispatcher for blocking code (JDK 21): [`VirtualThreads.kt`](src/main/kotlin/interop/VirtualThreads.kt)
 - Kotlin sealed types seen from Java: `isSealed`, `permittedSubclasses`: [`SealedFromJava.kt`](src/main/kotlin/interop/SealedFromJava.kt)
+- Variance as Java wildcards, `@JvmSuppressWildcards`, `@JvmWildcard`: [`JvmWildcards.kt`](src/main/kotlin/interop/JvmWildcards.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
