@@ -214,4 +214,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - ReDoS: catastrophic backtracking, input limits, a step-budgeted `CharSequence`: [`RegexDos.kt`](src/main/kotlin/secure/RegexDos.kt)
 - Java deserialization: an `ObjectInputFilter` allowlist with limits: [`DeserializationFilter.kt`](src/main/kotlin/secure/DeserializationFilter.kt)
 - SSRF: scheme and port allowlists, checking every resolved address: [`SsrfGuard.kt`](src/main/kotlin/secure/SsrfGuard.kt)
+- Token bucket rate limiting with coroutines, tested in virtual time: [`RateLimiter.kt`](src/main/kotlin/secure/RateLimiter.kt)
 <!-- INDEX:secure:END -->
