@@ -194,6 +194,7 @@ Language features by Kotlin release, starting with 2.x.
 - Context parameters (2.4): [`ContextParameters.kt`](src/main/kotlin/modern/ContextParameters.kt)
 - Explicit backing fields (2.4): [`ExplicitBackingFields.kt`](src/main/kotlin/modern/ExplicitBackingFields.kt)
 - Stable `kotlin.uuid.Uuid` (2.4): [`StableUuid.kt`](src/main/kotlin/modern/StableUuid.kt)
+- `@all` meta-target and new annotation use-site defaults (2.4): [`AllMetaTarget.kt`](src/main/kotlin/modern/AllMetaTarget.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
