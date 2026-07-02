@@ -218,4 +218,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - Java deserialization: an `ObjectInputFilter` allowlist with limits: [`DeserializationFilter.kt`](src/main/kotlin/secure/DeserializationFilter.kt)
 - SSRF: scheme and port allowlists, checking every resolved address: [`SsrfGuard.kt`](src/main/kotlin/secure/SsrfGuard.kt)
 - Token bucket rate limiting with coroutines, tested in virtual time: [`RateLimiter.kt`](src/main/kotlin/secure/RateLimiter.kt)
+- Zip Slip and zip bombs: safe extraction with entry and size limits: [`ZipSlip.kt`](src/main/kotlin/secure/ZipSlip.kt)
 <!-- INDEX:secure:END -->
