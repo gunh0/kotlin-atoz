@@ -84,6 +84,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - `Result` and `runCatching`: [`ResultType.kt`](src/main/kotlin/functional/ResultType.kt)
 - `DeepRecursiveFunction` vs `StackOverflowError` on deeply nested input: [`DeepRecursion.kt`](src/main/kotlin/functional/DeepRecursion.kt)
 - Typed errors: a sealed `Outcome<E, A>` with `map`/`flatMap`/`fold`: [`TypedErrors.kt`](src/main/kotlin/functional/TypedErrors.kt)
+- Combinators on a `fun interface`: `and`, `or`, `!` for access rules: [`RuleCombinators.kt`](src/main/kotlin/functional/RuleCombinators.kt)
 <!-- INDEX:functional:END -->
 
 ### collections
