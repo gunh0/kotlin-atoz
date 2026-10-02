@@ -159,6 +159,7 @@ Type-safe builders, lambdas with receivers, `@DslMarker`.
 - Query DSL that renders parameterized SQL, allowlisted identifiers: [`SqlDsl.kt`](src/main/kotlin/dsl/SqlDsl.kt)
 - Validation DSL on property references that collects every violation: [`ValidationDsl.kt`](src/main/kotlin/dsl/ValidationDsl.kt)
 - Context parameters as DSL capabilities: a transaction block: [`ContextScopedDsl.kt`](src/main/kotlin/dsl/ContextScopedDsl.kt)
+- Type-state builder: phantom types make missing steps a compile error: [`TypedStepBuilder.kt`](src/main/kotlin/dsl/TypedStepBuilder.kt)
 <!-- INDEX:dsl:END -->
 
 ### interop
