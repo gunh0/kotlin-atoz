@@ -179,6 +179,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - Virtual threads as a dispatcher for blocking code (JDK 21): [`VirtualThreads.kt`](src/main/kotlin/interop/VirtualThreads.kt)
 - Kotlin sealed types seen from Java: `isSealed`, `permittedSubclasses`: [`SealedFromJava.kt`](src/main/kotlin/interop/SealedFromJava.kt)
 - Variance as Java wildcards, `@JvmSuppressWildcards`, `@JvmWildcard`: [`JvmWildcards.kt`](src/main/kotlin/interop/JvmWildcards.kt)
+- `Optional` vs nullable types: `getOrNull`, `getOrDefault`, `ofNullable`: [`OptionalInterop.kt`](src/main/kotlin/interop/OptionalInterop.kt)
 <!-- INDEX:interop:END -->
 
 ### modern
