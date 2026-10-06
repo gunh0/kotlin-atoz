@@ -144,6 +144,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - kotlinx.coroutines 1.11: `Flow.associate*`, `consumeTo`, `StateFlow.onSubscription`: [`CoroutinesOneEleven.kt`](src/main/kotlin/coroutines/CoroutinesOneEleven.kt)
 - Bounding concurrency: `Semaphore` vs `limitedParallelism`: [`BoundedConcurrency.kt`](src/main/kotlin/coroutines/BoundedConcurrency.kt)
 - Context elements: `CoroutineName`, custom request id, `ThreadLocal.asContextElement`: [`ContextElements.kt`](src/main/kotlin/coroutines/ContextElements.kt)
+- Graceful worker pool shutdown: close, drain with a deadline, cancel: [`GracefulShutdown.kt`](src/main/kotlin/coroutines/GracefulShutdown.kt)
 <!-- INDEX:coroutines:END -->
 
 ### dsl
