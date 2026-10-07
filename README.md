@@ -199,6 +199,7 @@ Language features by Kotlin release, starting with 2.x.
 - Explicit backing fields (2.4): [`ExplicitBackingFields.kt`](src/main/kotlin/modern/ExplicitBackingFields.kt)
 - Stable `kotlin.uuid.Uuid` (2.4): [`StableUuid.kt`](src/main/kotlin/modern/StableUuid.kt)
 - `@all` meta-target and new annotation use-site defaults (2.4): [`AllMetaTarget.kt`](src/main/kotlin/modern/AllMetaTarget.kt)
+- `when` on types compiled to `invokedynamic` `typeSwitch` (2.4.20): [`WhenInvokeDynamic.kt`](src/main/kotlin/modern/WhenInvokeDynamic.kt)
 <!-- INDEX:modern:END -->
 
 ### secure
