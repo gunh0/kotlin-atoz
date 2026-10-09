@@ -224,4 +224,5 @@ Secure coding in Kotlin: what null safety and immutability buy you, and what the
 - SSRF: scheme and port allowlists, checking every resolved address: [`SsrfGuard.kt`](src/main/kotlin/secure/SsrfGuard.kt)
 - Token bucket rate limiting with coroutines, tested in virtual time: [`RateLimiter.kt`](src/main/kotlin/secure/RateLimiter.kt)
 - Zip Slip and zip bombs: safe extraction with entry and size limits: [`ZipSlip.kt`](src/main/kotlin/secure/ZipSlip.kt)
+- Authorization as a capability: privileged functions with a context parameter: [`AuthorizationContext.kt`](src/main/kotlin/secure/AuthorizationContext.kt)
 <!-- INDEX:secure:END -->
