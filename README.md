@@ -1,6 +1,26 @@
 # Kotlin A to Z
 
-A Kotlin study notebook: one small, runnable example per concept, each with a test that pins down the behaviour it describes. The companion of [java-atoz](https://github.com/gunh0/java-atoz), written from the point of view of someone who knows Java and wants to see what Kotlin changes.
+<p>
+  <a href="https://github.com/gunh0/kotlin-atoz/actions/workflows/build.yml"><img src="https://github.com/gunh0/kotlin-atoz/actions/workflows/build.yml/badge.svg" alt="build"></a>
+  <img src="https://img.shields.io/badge/Kotlin-2.4-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin 2.4">
+  <img src="https://img.shields.io/badge/examples-142-2E7D32" alt="142 examples">
+  <img src="https://img.shields.io/badge/tests-519-2E7D32" alt="519 tests">
+</p>
+
+A Kotlin study notebook: 142 small, runnable examples, one concept each, and 519 tests that pin down exactly what each example claims. The companion of [java-atoz](https://github.com/gunh0/java-atoz), written by someone who knows Java and wants to see what Kotlin changes: what null safety, immutability, sealed types and coroutines actually buy you, and where the JVM still shows through.
+
+| Chapter | Examples | Highlights |
+|---|---:|---|
+| [basics](#basics-18) | 18 | types without implicit widening, null safety, `when`, ranges, unsigned numbers |
+| [oop](#oop-16) | 16 | data/sealed/value classes, delegation, `data object`, init order pitfalls |
+| [functional](#functional-17) | 17 | inline/crossinline, scope functions, `Result`, deep recursion, typed errors |
+| [collections](#collections-13) | 13 | read-only vs mutable, sequences, grouping, `isSorted` before binary search |
+| [generics](#generics-6) | 6 | declaration/use-site variance, `reified`, erasure |
+| [coroutines](#coroutines-20) | 20 | structured concurrency, cancellation, `Flow`, channels, virtual-time tests |
+| [dsl](#dsl-9) | 9 | type-safe builders, `@DslMarker`, typed step builders |
+| [interop](#interop-13) | 13 | platform types, `@Jvm*`, SAM conversions, virtual threads, `CompletableFuture` |
+| [modern](#modern-12) | 12 | Kotlin 2.2–2.4: guard conditions, context parameters, explicit backing fields, `Uuid`, `Instant` |
+| [secure](#secure-18) | 18 | validation, constant-time compare, PBKDF2, AES-GCM, HMAC tokens, SSRF and ReDoS guards, rate limiting |
 
 ## Running
 
@@ -9,13 +29,13 @@ A Kotlin study notebook: one small, runnable example per concept, each with a te
 ./gradlew run -Pmain=atoz.basics.VariablesKt     # run one example's main()
 ```
 
-Requires JDK 21 (Gradle downloads it through the toolchain resolver if it isn't installed).
+Requires JDK 21 (Gradle downloads it through the toolchain resolver if it isn't installed). Built with Kotlin 2.4, kotlinx-coroutines 1.11 and Gradle 9.8; only stable language features and APIs are used (no `@OptIn`, no compiler flags), and CI runs every test on each push.
 
 Layout: `src/main/kotlin/<chapter>/<Topic>.kt` holds the example, `src/test/kotlin/<chapter>/<Topic>Test.kt` its test. The class to pass to `-Pmain` is the package plus the file name with a `Kt` suffix.
 
 ## Chapters
 
-### basics
+### basics (18)
 
 Values and variables, types, strings, control flow, functions, null safety.
 
@@ -40,7 +60,7 @@ Values and variables, types, strings, control flow, functions, null safety.
 - Chars and code points: surrogate pairs, Unicode digits, NFKC: [`CharsAndCodePoints.kt`](src/main/kotlin/basics/CharsAndCodePoints.kt)
 <!-- INDEX:basics:END -->
 
-### oop
+### oop (16)
 
 Classes and constructors, properties, data/sealed/enum classes, objects and companions, interfaces, delegation.
 
@@ -63,7 +83,7 @@ Classes and constructors, properties, data/sealed/enum classes, objects and comp
 - Hand-written `equals`/`hashCode`, mutable keys, symmetry: [`EqualsHashCode.kt`](src/main/kotlin/oop/EqualsHashCode.kt)
 <!-- INDEX:oop:END -->
 
-### functional
+### functional (17)
 
 Lambdas, higher-order and inline functions, scope functions, extension functions.
 
@@ -87,7 +107,7 @@ Lambdas, higher-order and inline functions, scope functions, extension functions
 - Combinators on a `fun interface`: `and`, `or`, `!` for access rules: [`RuleCombinators.kt`](src/main/kotlin/functional/RuleCombinators.kt)
 <!-- INDEX:functional:END -->
 
-### collections
+### collections (13)
 
 Read-only vs mutable collections, transformations, grouping, sequences.
 
@@ -107,7 +127,7 @@ Read-only vs mutable collections, transformations, grouping, sequences.
 - `isSorted`, `isSortedBy`, `isSortedWith` and `binarySearch` preconditions: [`SortedChecks.kt`](src/main/kotlin/collections/SortedChecks.kt)
 <!-- INDEX:collections:END -->
 
-### generics
+### generics (6)
 
 Generic functions and classes, variance (`in`/`out`), reified type parameters.
 
@@ -120,7 +140,7 @@ Generic functions and classes, variance (`in`/`out`), reified type parameters.
 - Type erasure, unchecked casts, `typeOf`: [`TypeErasure.kt`](src/main/kotlin/generics/TypeErasure.kt)
 <!-- INDEX:generics:END -->
 
-### coroutines
+### coroutines (20)
 
 Structured concurrency, cancellation, `async`, `Flow`, channels, testing with virtual time.
 
@@ -147,7 +167,7 @@ Structured concurrency, cancellation, `async`, `Flow`, channels, testing with vi
 - Graceful worker pool shutdown: close, drain with a deadline, cancel: [`GracefulShutdown.kt`](src/main/kotlin/coroutines/GracefulShutdown.kt)
 <!-- INDEX:coroutines:END -->
 
-### dsl
+### dsl (9)
 
 Type-safe builders, lambdas with receivers, `@DslMarker`.
 
@@ -163,7 +183,7 @@ Type-safe builders, lambdas with receivers, `@DslMarker`.
 - Type-state builder: phantom types make missing steps a compile error: [`TypedStepBuilder.kt`](src/main/kotlin/dsl/TypedStepBuilder.kt)
 <!-- INDEX:dsl:END -->
 
-### interop
+### interop (13)
 
 Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotations, SAM conversions.
 
@@ -183,7 +203,7 @@ Calling Java from Kotlin and Kotlin from Java: platform types, `@Jvm*` annotatio
 - `Optional` vs nullable types: `getOrNull`, `getOrDefault`, `ofNullable`: [`OptionalInterop.kt`](src/main/kotlin/interop/OptionalInterop.kt)
 <!-- INDEX:interop:END -->
 
-### modern
+### modern (12)
 
 Language features by Kotlin release, starting with 2.x.
 
@@ -202,7 +222,7 @@ Language features by Kotlin release, starting with 2.x.
 - `when` on types compiled to `invokedynamic` `typeSwitch` (2.4.20): [`WhenInvokeDynamic.kt`](src/main/kotlin/modern/WhenInvokeDynamic.kt)
 <!-- INDEX:modern:END -->
 
-### secure
+### secure (18)
 
 Secure coding in Kotlin: what null safety and immutability buy you, and what they don't.
 
